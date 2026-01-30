@@ -8,8 +8,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #e2e8f0;
+    background: linear-gradient(135deg, #dc143c 0%, #2f4f4f 100%);
     min-height: 100vh;
     padding: 20px;
 }
@@ -17,9 +17,9 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background: white;
+    background: #1a202c;
     border-radius: 12px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
     overflow: hidden;
 }
 
@@ -40,15 +40,16 @@ header {
 
 .tagline {
     font-size: 1.2em;
-    opacity: 0.9;
+    opacity: 1;
     font-weight: 300;
+    color: #f0f0f0;
 }
 
 /* Navigation Tabs */
 .tabs {
     display: flex;
-    background: #f7fafc;
-    border-bottom: 2px solid #e2e8f0;
+    background: #2d3748;
+    border-bottom: 2px solid #4a5568;
     overflow-x: auto;
 }
 
@@ -60,27 +61,28 @@ header {
     cursor: pointer;
     font-size: 1.05em;
     font-weight: 500;
-    color: #4a5568;
+    color: #cbd5e0;
     transition: all 0.3s ease;
     border-bottom: 3px solid transparent;
     white-space: nowrap;
 }
 
 .tab-button:hover {
-    background: #edf2f7;
-    color: #2d3748;
+    background: #4a5568;
+    color: #f0f0f0;
 }
 
 .tab-button.active {
-    color: #667eea;
-    border-bottom-color: #667eea;
-    background: white;
+    color: #dc143c;
+    border-bottom-color: #dc143c;
+    background: #1a202c;
 }
 
 /* Tab Content */
 main {
     padding: 50px 60px;
     min-height: 500px;
+    background: #1a202c;
 }
 
 .tab-content {
@@ -105,28 +107,28 @@ main {
 
 h2 {
     font-size: 2.5em;
-    color: #2d3748;
+    color: #f0f0f0;
     margin-bottom: 25px;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 3px solid #dc143c;
     padding-bottom: 15px;
 }
 
 h3 {
     font-size: 1.8em;
-    color: #2d3748;
+    color: #f0f0f0;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 h4 {
     font-size: 1.3em;
-    color: #4a5568;
+    color: #e2e8f0;
     margin-bottom: 10px;
 }
 
 p {
     margin-bottom: 15px;
-    color: #4a5568;
+    color: #cbd5e0;
     font-size: 1.05em;
 }
 
@@ -135,7 +137,7 @@ p {
     font-size: 1.2em;
     line-height: 1.8;
     margin-bottom: 40px;
-    color: #2d3748;
+    color: #cbd5e0;
 }
 
 .features {
@@ -146,7 +148,7 @@ p {
 }
 
 .feature-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #dc143c 0%, #2f4f4f 100%);
     color: white;
     padding: 30px;
     border-radius: 8px;
@@ -156,7 +158,7 @@ p {
 
 .feature-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 10px 30px rgba(220, 20, 60, 0.4);
 }
 
 .feature-card h3 {
@@ -183,7 +185,7 @@ p {
 
 .feature-list li {
     margin-bottom: 12px;
-    color: #4a5568;
+    color: #cbd5e0;
     font-size: 1.05em;
     line-height: 1.6;
 }
@@ -197,33 +199,33 @@ p {
 }
 
 .license-card {
-    background: #f7fafc;
-    border: 2px solid #e2e8f0;
+    background: #2d3748;
+    border: 2px solid #4a5568;
     border-radius: 8px;
     padding: 25px;
     transition: all 0.3s ease;
 }
 
 .license-card:hover {
-    border-color: #667eea;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+    border-color: #dc143c;
+    box-shadow: 0 5px 15px rgba(220, 20, 60, 0.2);
     transform: translateY(-3px);
 }
 
 .license-card h4 {
-    color: #667eea;
+    color: #dc143c;
 }
 
 .cta {
-    background: #f7fafc;
-    border-left: 4px solid #667eea;
+    background: #2d3748;
+    border-left: 4px solid #dc143c;
     padding: 25px;
     margin-top: 40px;
     border-radius: 4px;
 }
 
 .cta strong {
-    color: #2d3748;
+    color: #f0f0f0;
     font-size: 1.1em;
 }
 
@@ -233,14 +235,14 @@ p {
 }
 
 .contact-info {
-    background: #f7fafc;
+    background: #2d3748;
     padding: 30px;
     border-radius: 8px;
     margin: 30px 0;
 }
 
 .contact-info a {
-    color: #667eea;
+    color: #dc143c;
     text-decoration: none;
     font-weight: 500;
 }
@@ -255,7 +257,7 @@ p {
 
 .response-time {
     font-style: italic;
-    color: #718096;
+    color: #a0aec0;
     margin-top: 30px;
 }
 
